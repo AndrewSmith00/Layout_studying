@@ -1,0 +1,147 @@
+@import url(normalize.css);
+
+body {
+  font-family: roboto, arial, sans-serif;
+}
+
+.main-header_container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-header {
+  width: 1219px;
+  padding-top: 20px;
+  padding-bottom: 17px;
+  background-color: #007765;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  margin-left: 10%;
+}
+
+.nav {
+  font-size: 24px;
+  font-weight: 500;
+  float: right;
+  margin: auto 10% auto 0;
+  color: #ffffff;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+.main-container {
+  max-width: 1219px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.main-container.intro {
+  margin-top: 84px;
+  background-image: url(img/intro.png);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.main-container.problem-container, .main-container.team-container {
+  background-color: #eeeeee;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.main-container.quote-container {
+  background-image: url(img/quote-image.png);
+  background-size: contain;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.intro-container {
+    padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.main-container.footer {
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.content.text {
+  font-size: 32px;
+}
+
+.content.quote {
+  font-style: italic;
+  font-weight: 500;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+.header {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+}
+
+.ppc-logo {
+  float: left;
+  padding-right: 30px;
+}
+
+.img-container {
+  display: inline-block;
+  padding-left: 90px;
+}
+
+.img-container img {
+  border-radius: 50%;
+}
+
+.img-container .name,
+.description {
+  text-align: center;
+}
+
+.name {
+  color: #007765;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  font-style: italic;
+}
